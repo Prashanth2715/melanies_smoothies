@@ -35,7 +35,7 @@ if ingredients_list and name_on_order:
 
 #displaying fruitvice data
 fruitvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
-fv_df=st.dataframe(fruitvice_response.json(),use_container_width=true)
+fv_df=st.dataframe(fruitvice_response.json(),use_container_width=True)
         
 
 
